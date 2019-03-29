@@ -9,7 +9,7 @@ Projeto: Monitora o ambiente dentro de uma caixa "vedada".
 A caixa possui um orifício, de forma que possamos modificar as variáveis monitoradas, inserindo "elementos" modificadores, como
 gás Nitrogénio, ar quente etc. Visualizamos as mudanças em gráficos de tempo real, numa página web hospedada na núvem.
 
-Página: http://www.monitamb-caixa.mybluemix.net/ui/
+Página: https://monitamb-caixa.mybluemix.net/ui/#!/0
 
 
 
