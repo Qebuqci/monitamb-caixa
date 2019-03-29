@@ -23,8 +23,8 @@
 #define DHTTYPE DHT11
 // BMP280 - SPI
 #define BMP_SCK D0
-#define BMP_MISO D2
-#define BMP_MOSI D1
+#define BMP_MISO D1
+#define BMP_MOSI D2
 #define BMP_CS D4
 
 // Escopo Funções //
@@ -55,7 +55,7 @@ JsonObject jsonChave = jsonConteudo.createNestedObject("d");
 
 // Variáveis globais //
 int32_t IntervaloNotificacao = 10;
-int k=100000;
+int atm=100000;
 
 // Inicia terminal (monitor) serial
 void inTermSerial()
@@ -117,7 +117,7 @@ char *sensorizaAmbiente()
   {
     u = dht.readHumidity();
     t = bmp.readTemperature();
-    p = bmp.readPressure() / k;
+    p = bmp.readPressure() / atm;
     a = bmp.readAltitude(); // Parâmetro ajustado para o local
     jsonChave["temp"] = t;
     //jsonChave["Umidade"] = u;
