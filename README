@@ -1,0 +1,15 @@
+Repositório do projeto 4 - Monitoramento de um ambiente
+
+Projeto: Monitora o ambiente dentro de uma caixa "vedada". 
+(+) Monitora a temperatura
+(+) Monitora a umidade atmosférica
+(+) Monitora a pressão atmosférica (em MPascal, ou seja, dividimos o valor monitorado por 10⁶)
+(+) Monitora a altitude (em relação ao nível do mar)
+
+A caixa possui um orifício, de forma que possamos modificar as variáveis monitoradas, inserindo "elementos" modificadores, como
+gás Nitrogénio, ar quente etc. Visualizamos as mudanças em gráficos de tempo real, numa página web hospedada na núvem.
+
+Página: http://www.monitamb-caixa.mybluemix.net/ui/
+
+
+
